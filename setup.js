@@ -27,6 +27,6 @@ function copyFile(source, target, cb) {
     }
 }
 
-copyFile(cwd + 'node_modules/ergon-easy-build/gulpfile.js', cwd + '/gulpfile.js', function(err){
+copyFile(cwd + '/node_modules/ergon-easy-build/gulpfile.js', cwd + '/gulpfile.js', function(err){
     if (typeof err !== 'undefined') console.log(err);
 });
