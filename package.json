@@ -16,8 +16,7 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
-    "pump": "^1.0.2",
-    "requirejs": "^2.3.3"
+    "pump": "^1.0.2"
   },
-  "bin": "./ergon-build-setup.js"
+  "bin": {"ergon-build-setup": "./setup.js"}
 }
