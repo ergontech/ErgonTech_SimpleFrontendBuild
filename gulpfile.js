@@ -22,19 +22,21 @@ const config = {
 
     production: !!gutil.env.production,
 
-    projectUrl: 'http://dev.worn.drmartens.com/',
-
-    projectTheme: './web/app/themes/dm-worn-child/',
+    // Change Me!
+    projectUrl: '',
+    // Change Me!
+    projectTheme: '',
 
     themePaths: {},
     sourcePaths: {},
 
     init: function() {
+        // Change Me!
         config.themePaths = {
             css: config.projectTheme + 'css',
             js: config.projectTheme + 'js'
         };
-
+        // Change Me!
         config.sourcePaths = {
             sass: config.projectTheme+ 'source/scss/**/*.scss',
             js: config.projectTheme + 'source/js/**/*.js'
