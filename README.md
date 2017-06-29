@@ -9,5 +9,5 @@ $ npm install git+https://git@github.com/ergontech/ErgonTech_SimpleFrontendBuild
 
 To configure this module for your own use, run this command
 ```
-$ ./node_modules/.bin/ergon-easy-build
+$ node ./node_modules/.bin/ergon-build-setup
 ```
